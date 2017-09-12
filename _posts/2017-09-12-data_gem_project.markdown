@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Gem Project"
-date:   2017-09-12 00:03:03 +0000
+date:   2017-09-11 20:03:04 -0400
 ---
 
 
@@ -23,9 +23,11 @@ Once I found a website that worked, I found that programming the scraper class w
 
 Writing the card class which kept track of individual card attributes was a simple affair. I designed it to take in an array of hashes and build a collection of cards with attributes that could be modified.
 
-I had a great 'AHA!' moment while I was demoing a gem to a friend. Originally, my gem would scrape the search page, create an array of URLs and names that was passed to the other scraper method in the scraper class that would scrape each card profile page, and then pass that array of hashses to the card class. This worked decently enough with a small number of hits, but his search yieled 60 results - it took about 45 seconds to build the whole collection of cards! 
+I had a great 'AHA!' moment while I was demoing a gem to a friend. Originally, my gem would scrape the search page, create an array of URLs and names that was passed to the other scraper method in the scraper class that would scrape each card profile page, and then pass that array of hashses to the card class. This worked decently enough with a small number of hits, but his search yielded 60 results - it took about 45 seconds to build the whole collection of cards! 
 
 I optimized my app by making the scraper class only scrape the card profile page when the corresponding individual card is accessed through the CLI. This cut the initial load time down to a second or two. That was one heck of an optimization!
+
+Another issue my app had was that it could only display a max of 60 cards in the list main, since the search index of Scryfall displays a max of 60 per page. To get around this limit, at the end of the the index scraper I had it recur itself if it detected a link to display more results. I have always viewed recursion as dark mysterious entity. Using it to solve a problem has made it less mysterious for me!
 
 One other improvement I would like to make for this gem down the road is to have it use Scryfall's API, which is much more reliable than scraping data from a webpage. The trouble with scraping data from a webpage is that you are at the mercy of the website's creator. The way data is structured on the website is subject to change at any time, which can spell trouble for an out of date scraper!
 
