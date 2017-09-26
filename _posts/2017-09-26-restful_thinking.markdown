@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RESTful Thinking"
-date:   2017-09-26 16:26:17 +0000
+date:   2017-09-26 12:26:18 -0400
 ---
 
 
