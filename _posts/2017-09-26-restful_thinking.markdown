@@ -31,7 +31,7 @@ GET '/posts/:id' do
 end
 ```
 
-This code snippet tells the controller to catch any GET request with cutekitties.com/posts/id_number (for example cutekittie.com/posts/42) and introspect the request to find the id number of the post, then render the show post page with the post's content. 
+This code snippet tells the controller to catch any GET request with cutekitties.com/posts/id_number (for example cutekitties.com/posts/42) and introspect the request to find the id number of the post, then render the show post page with the post's content. 
 
 
 
