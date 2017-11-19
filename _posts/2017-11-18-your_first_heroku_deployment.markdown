@@ -32,9 +32,11 @@ With that in mind, enter the following command into your terminal
 
 This will start a session with the default account. 
 
-The following command will start an interactive process to create a new account. Enter the account name you use to log onto your computer, and give it superuser access.
+The following command will start an interactive process to create a new account. 
 
 `createuser --interactive`
+
+When prompted, enter the account name you use to log onto your computer, and hit the 'y' key to give the new role super user access.
 
 Done with Postgres configuration! Give yourself a high five.
 
@@ -82,12 +84,12 @@ rake db:create
 rake db:migrate
 ```
 
-You can also create a Procfile in the root of your web app. This is optional. If you don’t you will get a small warning during the deployment process. Follow the instructions here if you are interested: https://devcenter.heroku.com/articles/procfile
+You can also create a Procfile in the root of your web app. This is optional. If you don’t you will get a small warning during the deployment process. Follow the instructions here if you are interested: [Procfile Setup](https://devcenter.heroku.com/articles/procfile)
 
 This is important: PUSH YOUR CHANGES TO GITHUB. If you don’t , you will get an error informing you that there is a reference to sqlite3 in your gemfile.
 
 Sign up for a Heroku account and install their software using the instructions here:
-https://devcenter.heroku.com/articles/heroku-cli
+[Heroku CLI setup](https://devcenter.heroku.com/articles/heroku-cli)
 
 Time for the moment of truth!
 
