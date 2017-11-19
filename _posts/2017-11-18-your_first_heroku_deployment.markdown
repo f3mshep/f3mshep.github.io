@@ -18,9 +18,10 @@ At this point, there is a great chance you do not have Postgres installed on you
 
 First, make sure you actually have Postgres installed!
 
-`sudo apt-get update`
-
-`sudo apt-get install postgresql postgresql-contrib`
+```
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+```
 
 **A quick note on roles: **
 
@@ -67,7 +68,7 @@ to install the new gem, and remove sqlite3 from your gemfile.lock
 Open up your database.yml file in the config folder. We are changing the database adapter from sqlite3 to postgresql.
 
 ```
-config/database.yml
+#config/database.yml
 
 adapter: sqlite3
 ```
@@ -80,7 +81,6 @@ Now, run
 
 ```
 rake db:create
-
 rake db:migrate
 ```
 
