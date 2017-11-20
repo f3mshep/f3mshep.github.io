@@ -115,6 +115,6 @@ If you get the dreaded sqlite3 error, make sure there are no references to sqlit
 
 If you made it this far, congratulations! The world can now see your wonderful new web application.
 
-Shameless plug, check out KetoTonight at https://stark-harbor-64502.herokuapp.com/.
+Shameless plug, check out [KetoTonight](https://stark-harbor-64502.herokuapp.com/.)
 
 
