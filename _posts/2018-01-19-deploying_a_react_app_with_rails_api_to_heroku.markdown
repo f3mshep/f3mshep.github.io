@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deploying a React App with Rails API to Heroku"
-date:       2018-01-20 00:11:23 +0000
+date:       2018-01-19 19:11:24 -0500
 permalink:  deploying_a_react_app_with_rails_api_to_heroku
 ---
 
@@ -107,7 +107,9 @@ git push heroku master
 
 This will take a while, since Heroku is building a production version of your application. Once it completes, give yourself a high five!
 
-![]https://media.giphy.com/media/BwOU6uH7afefu/giphy.gif)
+<br>
+
+<iframe src="https://giphy.com/embed/BwOU6uH7afefu" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tina-fey-high-five-t-BwOU6uH7afefu"></a></p>
 
 
 
