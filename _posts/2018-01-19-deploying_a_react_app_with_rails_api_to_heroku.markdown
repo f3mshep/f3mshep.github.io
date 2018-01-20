@@ -13,7 +13,7 @@ I am going to be making 2 assumptions with this post:
 
 1. You have followed the previously mentioned guide to configure a development version of your application.
 
-2. You are using PostGres as your production database adapter, and not SQlite3. Heroku will throw all kind of errors at you if you        attempt to deploy a Rails application to Heroku with a SQlite3 adapter, which unfortunately is the default database adapter for Rails. If you want more information about changing from SQlite3 to PostGres, check out (my post)[http://alexandrawright.net/your_first_heroku_deployment] on the subject!
+2. You are using PostGres as your production database adapter, and not SQlite3. Heroku will throw all kind of errors at you if you        attempt to deploy a Rails application to Heroku with a SQlite3 adapter, which unfortunately is the default database adapter for Rails. If you want more information about changing from SQlite3 to PostGres, check out [my post](http://alexandrawright.net/your_first_heroku_deployment) on the subject!
 
 Before proceeding, I reccomend creating a branch of your application, which will make it easy to revert any changes if something goes wrong.  
 
@@ -107,7 +107,7 @@ git push heroku master
 
 This will take a while, since Heroku is building a production version of your application. 
 
-While it is building, why don't you play some Sudoku on my [Heroku web app](https://sudoku-now.herokuapp.com/)
+While it is building, play some Sudoku on my [Heroku web app](https://sudoku-now.herokuapp.com/)
 
 Once it completes, give yourself a high five!
 
