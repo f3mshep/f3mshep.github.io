@@ -105,7 +105,11 @@ git push
 git push heroku master
 ```
 
-This will take a while, since Heroku is building a production version of your application. Once it completes, give yourself a high five!
+This will take a while, since Heroku is building a production version of your application. 
+
+While it is building, why don't you play some Sudoku on my [Heroku web app](https://sudoku-now.herokuapp.com/)
+
+Once it completes, give yourself a high five!
 
 <br>
 
