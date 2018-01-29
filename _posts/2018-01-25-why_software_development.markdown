@@ -9,7 +9,7 @@ If you are reading this post, you might be wondering why I decided to get into p
 
 Ever since I was a small child, I have had an interest in computers. One of my oldest memories is installing the original X-Wing in DOS. I remember being absolutely fascinated with how the other space ships in the game decided where to fly and who to shoot! I was blown away when my dad told me it was a computer making all the decisions for the space ships, not other people!
 
-This fascination with computers persisted as I grow up. I have memories of wistfully cracking open books on C and wishing I could understand them.  When I was 10, I created the most 90’s looking webpage ever. I was extremely proud of myself! (Sidenote: <blink> tags are really cool if you are 10). I moved on to creating pages in Dreamweaver, and thought I was just the cat’s pajamas. In High School, My experience with dream weaver and HTML landed me the sweet gig of Assistant Web Master in my local scout troop.
+This fascination with computers persisted as I grow up. I have memories of wistfully cracking open books on C and wishing I could understand them.  When I was 10, I created the most 90’s looking webpage ever. I was extremely proud of myself! (Sidenote: `<blink>` tags are really cool if you are 10). I moved on to creating pages in Dreamweaver, and thought I was just the cat’s pajamas. In High School, My experience with dream weaver and HTML landed me the sweet gig of Assistant Web Master in my local scout troop.
 
 Going off to college, like most people, I wasn’t exactly sure what I wanted out of life. Being able to program as a career seemed impossible for someone like me, so I went with Psychology instead. I had my ‘come to Jesus’ moment during an Intro to Neuroscience class.
 
