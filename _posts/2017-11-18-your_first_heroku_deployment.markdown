@@ -14,7 +14,7 @@ Let me back up: Heroku is a cloud platform as a service that hosts web applicati
 
 Postgresql operates a little differently than SQlite3. SQlite3 runs in memory, and stores the database files on hard drive storage. Postgresql runs on a server, which happens to mesh better with Heroku’s database stack.
 
-At this point, there is a great chance you do not have Postgres installed on your computer.  Since Postgres is server based, it  will require a little more configuration than just simply installing it like SQlite3. Not to fear, I will take you through the whole process! I am making the assumption that you are using an equivalent to Ubuntu 14.04 or greater. Instructions should be similar on a Mac, but not identical. The greatest deviation will be how you actually install Postgres.  It is a snap to install PostGres on MacOS, just run the installer on this page: [PostGres App](https://postgresapp.com/)
+At this point, there is a great chance you do not have Postgres installed on your computer.  Since Postgres is server based, it  will require a little more configuration than just simply installing it like SQlite3. Not to fear, I will take you through the whole process! I am making the assumption that you are using an equivalent to Ubuntu 14.04 or greater. Instructions should be similar on a Mac, but not identical. The greatest deviation will be how you actually install Postgres. 
 
 First, make sure you actually have Postgres installed!
 
@@ -86,7 +86,7 @@ rake db:migrate
 
 You can also create a Procfile in the root of your web app. This is optional. If you don’t you will get a small warning during the deployment process. Follow the instructions here if you are interested: [Procfile Setup](https://devcenter.heroku.com/articles/procfile)
 
-This is important: PUSH YOUR CHANGES TO GITHUB. If you don’t , you will get an error informing you that there is a reference to sqlite3 in your gemfile.
+This is important: PUSH YOUR CHANGES TO GITHUB. If you don’t , you will get an error informing you that there is a reference to sqlite3 in your gemfile later down the road.
 
 Sign up for a Heroku account and install their software using the instructions here:
 [Heroku CLI setup](https://devcenter.heroku.com/articles/heroku-cli)
