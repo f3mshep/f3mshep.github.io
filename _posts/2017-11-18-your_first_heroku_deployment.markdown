@@ -14,7 +14,7 @@ Let me back up: Heroku is a cloud platform as a service that hosts web applicati
 
 Postgresql operates a little differently than SQlite3. SQlite3 runs in memory, and stores the database files on hard drive storage. Postgresql runs on a server, which happens to mesh better with Heroku’s database stack.
 
-At this point, there is a great chance you do not have Postgres installed on your computer.  Since Postgres is server based, it  will require a little more configuration than just simply installing it like SQlite3. Not to fear, I will take you through the whole process! I am making the assumption that you are using an equivalent to Ubuntu 14.04 or greater. Instructions should be similar on a Mac, but not identical. The greatest deviation will be how you actually install Postgres. 
+At this point, there is a great chance you do not have Postgres installed on your computer.  Since Postgres is server based, it  will require a little more configuration than just simply installing it like SQlite3. Not to fear, I will take you through the whole process! I am making the assumption that you are using an equivalent to Ubuntu 14.04 or greater. Instructions should be similar on a Mac, but not identical. The greatest deviation will be how you actually install Postgres.  It is a snap to install PostGres on MacOS, just run the installer on this page: [PostGres App](https://postgresapp.com/)
 
 First, make sure you actually have Postgres installed!
 
